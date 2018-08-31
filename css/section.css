@@ -1,0 +1,127 @@
+.containerSection {
+  width: 100%;
+  position: relative;
+}
+
+.headerSection {
+  clear: both;
+  margin-bottom: 10px;
+  /*border: 1px solid #000000;*/
+  height: 100vh;
+}
+
+.sidebar {
+  float: left;
+  width: 30%;
+  height: 100vh;
+  /*border: 1px solid #000000;*/
+}
+
+.contentSection {
+  float: right;
+  width: 69%;
+  height: 300vh;
+  /*border: 1px solid #000000;*/
+  /*height: 800px;*/
+}
+
+.footer {
+  clear: both;
+  margin-top: 50px;
+  /*border: 1px solid #000000;*/
+  height: 5vh;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    width: 130px;
+    position: relative;
+    /*z-index: 1;*/
+    top: 20px;
+    left: 10px;
+    background: white;
+    /*overflow-x: hidden;*/
+    padding-top: 40vh;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+
+    font-size: 25px;
+    color: #888;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: skyblue;
+}
+
+ul {
+  float: left;
+  width: 100%;
+  margin: 0 0 30px 0; /*Padding Fix*/
+  padding: 0;
+}
+
+
+#section2{
+  min-height: 100vh;
+}
+
+#section3{
+  min-height: 100vh;
+}
+
+.section1{
+  min-height:100vh;
+  text-align: center;
+  /*padding:50px 0px 20px 0px;*/
+}
+
+.fbox{
+  height: 150px;
+  width: 100%;
+  background-color: powderblue;
+}
+
+.tarea{
+  height: 70px;
+  width:100%;
+  background-color: #E8E7E7;
+}
+
+.tbox2{
+  height:70px;
+  width: 100%;
+  background-color:#E9D6E9 ;
+}
+
+.sbox{
+  width: 100%;
+  height:200px;
+  background-color: #D6E5E9;
+}
+
+.sarea{
+  width: 100%;
+  height:100px;
+  background-color: #D4E6EA; 
+}
+
+.sarea2{
+  width: 100%;
+  height: 829px;
+  background-color: #ECE580;
+}
+
+
+.pbox{
+  width:100%;
+  height:300px;
+  background-color:#D9B6BF;
+  border:2px solid white;
+}
